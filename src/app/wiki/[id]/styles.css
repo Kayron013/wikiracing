@@ -1,0 +1,16 @@
+#Notes,
+#References,
+.reflist,
+/* pretty much everything after references */
+.reflist ~ *,
+/* note at top about the page needing more citations or whatever */
+.box-More_footnotes_needed {
+  display: none !important;
+}
+
+.wiki-content {
+  margin: 20px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
